@@ -1,0 +1,2 @@
+db.menu_items.createIndex({ name: "text", description: "text", ingredients: "text" })
+db.users.createIndex({ firstName: "text", lastName: "text", bio: "text" })
